@@ -1,0 +1,52 @@
+{
+    "name": "SearchBox Pro",
+    "version": "24.1",
+    "description": "SearchBox Pro adds a powerful, responsive global search to your application. With a customizable UI, keyboard shortcuts, and easy setup using existing search configs, it provides a seamless search experience for users.",
+    "keywords": [
+        "Search",
+        "Searchbox",
+        "Searchbar",
+        "Global search",
+        "Item",
+        "Serach configuration",
+        "Responsive"
+    ],
+    "homepage": "https://www.plug-ins-pro.com/",
+    "bugs": {
+        "url": "https://github.com/plug-ins-pro/searchbox_pro/issues",
+        "email": "info@plug-ins-pro.com"
+    },
+    "license": "Commercial",
+    "commercial": "Yes",
+    "author": {
+        "name": "United Codes",
+        "email": "info@plug-ins-pro.com",
+        "url": "https://www.plug-ins-pro.com/",
+        "twitter": "@Plug_ins_Pro"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/plug-ins-pro/searchbox_pro"
+    },
+    "oracle": {
+        "versions": [
+            "19.0.0.0",
+            "21.0.0.0",
+            "23.0.0.0"
+        ],
+        "apex": {
+            "versions": [
+                "22.2.0",
+                "23.1.0",
+                "23.2.0",
+                "24.1.0"
+            ],
+            "plugin": {
+                "internalName": "UNITEDCODES_SEARCHBOX_PRO",
+                "type": "item",
+                "demo": "https://prd.united-codes.com/ords/r/pip/searchbox_pro/home",
+                "previewImage": "https://prd.united-codes.com/ords/r/pip/731/files/static/v139/images/SearchBox-Pro-Promo.gif"
+            }
+        }
+    }
+}
